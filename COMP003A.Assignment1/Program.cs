@@ -1,9 +1,9 @@
 ﻿/*
- * Author: Jean Bryant Figueroa
- * Course: COMP003A C#
- * Faculty: Johnathan Cruz
- * Purpose: Assignment 1 - 10 things about me
- */
+* Author: Jean Bryant Figueroa
+* Course: COMP003A C#
+* Faculty: Johnathan Cruz
+* Purpose: Assignment 1 - 10 things about me
+*/
 
 namespace COMP003A.Assignment1
 {
@@ -11,8 +11,8 @@ namespace COMP003A.Assignment1
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("What is your name?");
+
+            Console.Write("Enter your name: ");
             string userName = Console.ReadLine();
             Console.WriteLine("Hello, " + userName + "! My name is Jean");
             Console.WriteLine("Here are 10 things about me");
